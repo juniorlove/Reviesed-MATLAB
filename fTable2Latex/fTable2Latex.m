@@ -2,6 +2,7 @@ function midStr = fTable2Latex(data)
     nr = height(data);
     nc = width(data);
     midStr = strings(nr, 1);
+    
     for i = 1:nr
         for j = 1:nc
             switch j
